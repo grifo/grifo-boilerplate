@@ -55,32 +55,3 @@ Pode ser gerado de acordo com este [Gist](https://gist.github.com/2870726).
 <br>
 ## Plugins jQuery
 Temos um repositório de plugins [Grifo-jquery-plugins](https://github.com/grifo/grifo-jquery-plugins) e mais alguma coisa neste [Gist](https://gist.github.com/2b6b1c1ca23351e74fa4).
-<br>
-<br>
-<br>
-
-                        gggggggggg
-                   gggggggggggggggggggg
-               gggggggggggggggggggggggggggg
-             gggggggggggggggggggggggggggggggg
-           gggggggggggggggggggggggggggggggggggg
-         gggggggggggggggggggggggggggggggggggggggg
-        ggggggggggggggggggg....ggggggggggggggggggg
-       gggggggggggggggggggg....gggggggggggggggggggg
-      gggggggggggggggggggggggggggggggggggggggggggggg
-     ggggggg....ggggggggggg....gggggggggggg....gggggg
-     ggggggg....ggggggggg........gggggggggg....gggggg
-     ggggggggg.gggggggg............gggggggg.ggggggggg
-     ggggggggg....ggg................ggg....ggggggggg
-     gggggggggg............................gggggggggg
-     gggggggggg............................gggggggggg
-     ggggggggggg..........................ggggggggggg
-      gggggggggg..........................gggggggggg
-       gggggggggg........................gggggggggg
-        gggggggggggggggggggggggggggggggggggggggggg
-         gggggggggggggggggggggggggggggggggggggggg
-           gggggggggggggggggggggggggggggggggggg
-             gggggggggggggggggggggggggggggggg
-               gggggggggggggggggggggggggggg
-                   gggggggggggggggggggg
-                        gggggggggg             Grifo
