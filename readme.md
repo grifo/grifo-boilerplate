@@ -15,27 +15,19 @@ Temos um [Cakefile](http://coffeescript.org/documentation/docs/cake.html) pra ag
 
 ### Configuração
 
-`coffee.push 'main', 'base', '…'` arquivos .coffee
-
-`less.push 'main', 'base', '…'` arquivos .less
-
-`coffee.src = '_coffee/'` pasta origem dos arquivos .coffee
-
-`coffee.dst = 'scripts/'` pasta destino
-
-`coffee.compress = true'` comprimir o resultado com [UglifyJs](https://github.com/mishoo/UglifyJS)
-
-
-`less.src = '_less/'` pasta origem dos arquivos .less
-
-`less.dst = 'styles/'` pasta destino
-
-`less.compress = true'` comprimir o resultado
-
-
-``head = "`date -u +'%Y-%m-%d %H:%M GMT'`"`` assinatura no arquivo gerado
-
-`tail = "\n  created by Grifo"`
+	coffee.push 'main', 'base', '…'   # arquivos .coffee
+	less.push 'main', 'base', '…'     # arquivos .less
+	
+	coffee.src = '_coffee/'    # pasta origem dos arquivos .coffee
+	coffee.dst = 'scripts/'    # pasta destino
+	coffee.compress = true'    # comprimir o resultado com UglifyJs
+	
+	less.src = '_less/'        # pasta origem dos arquivos .less
+	less.dst = 'styles/'       # pasta destino
+	less.compress = true'      # comprimir o resultado
+	
+	head = "`date -u +'%Y-%m-%d %H:%M GMT'`"   # assinatura no arquivo gerado
+	tail = "\ncreated by Grifo"                # assinatura no arquivo gerado
 
 ### Como usar
 
