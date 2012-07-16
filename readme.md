@@ -48,7 +48,7 @@ Além de compilar, esta tarefa recompila os arquivos a cada nova alteração. Pa
 <br>
 <br>
 <br>
-## Favion
+## Favicon
 Pode ser gerado de acordo com este [Gist](https://gist.github.com/2870726).
 <br>
 <br>
@@ -59,38 +59,28 @@ Temos um repositório de plugins [Grifo-jquery-plugins](https://github.com/grifo
 <br>
 <br>
 
-	
-  
-                                  /T /I
-                                   / |/ | .-~/
-                               T\ Y  I  |/  /  _
-              /T               | \I  |  I  Y.-~/
-             I l   /I       T\ |  |  l  |  T  /
-          T\ |  \ Y l  /T   | \I  l   \ `  l Y
-      __  | \l   \l  \I l __l  l   \   `  _. |
-      \ ~-l  `\   `\  \  \\ ~\  \   `. .-~   |
-       \   ~-. "-.  `  \  ^._ ^. "-.  /  \   |
-     .--~-._  ~-  `  _  ~-_.-"-." ._ /._ ." ./
-      >--.  ~-.   ._  ~>-"    "\\   7   7   ]
-     ^.___~"--._    ~-{  .-~ .  `\ Y . /    |
-      <__ ~"-.  ~       /_/   \   \I  Y   : |
-        ^-.__           ~(_/   \   >._:   | l______
-            ^--.,___.-~"  /_/   !  `-.~"--l_ /     ~"-.
-                   (_/ .  ~(   /'     "~"--,Y   -=b-. _)
-                    (_/ .  \  :           / l      c"~o \
-                     \ /    `.    .     .^   \_.-~"~--.  )
-                      (_/ .   `  /     /       !       )/
-                       / / _.   '.   .':      /        '
-                       ~(_/ .   /    _  `  .-<_
-                         /_/ . ' .-~" `.  / \  \          ,z=.
-                         ~( /   '  :   | K   "-.~-.______//
-                           "-,.    l   I/ \_    __{--->._(==.
-                            //(     \  <    ~"~"     //
-                           /'  \     \  \     ,v=.  ((
-                         .^.    \     "  }__ //===-  `
-                        / /      "-.,__ {---(==-       -Grifo
-                      .^ '              "   ll       
-                    .^ .^                    \\
-                   (   /                          ~^
-                    \/           
-
+                        gggggggggg
+                   gggggggggggggggggggg
+               gggggggggggggggggggggggggggg
+             gggggggggggggggggggggggggggggggg
+           gggggggggggggggggggggggggggggggggggg
+         gggggggggggggggggggggggggggggggggggggggg
+        ggggggggggggggggggg....ggggggggggggggggggg
+       gggggggggggggggggggg....gggggggggggggggggggg
+      gggggggggggggggggggggggggggggggggggggggggggggg
+     ggggggg....ggggggggggg....gggggggggggg....gggggg
+     ggggggg....ggggggggg........gggggggggg....gggggg
+     ggggggggg.gggggggg............gggggggg.ggggggggg
+     ggggggggg....ggg................ggg....ggggggggg
+     gggggggggg............................gggggggggg
+     gggggggggg............................gggggggggg
+     ggggggggggg..........................ggggggggggg
+      gggggggggg..........................gggggggggg
+       gggggggggg........................gggggggggg
+        gggggggggggggggggggggggggggggggggggggggggg
+         gggggggggggggggggggggggggggggggggggggggg
+           gggggggggggggggggggggggggggggggggggg
+             gggggggggggggggggggggggggggggggg
+               gggggggggggggggggggggggggggg
+                   gggggggggggggggggggg
+                        gggggggggg             Grifo
