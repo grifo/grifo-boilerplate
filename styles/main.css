@@ -1,0 +1,30 @@
+/*
+  2012-07-13 16:54 GMT
+  _less/main.less > styles/main.css
+  
+  created by Grifo
+*/
+@charset "utf-8";
+@media (grifo){}html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;}
+body{line-height:1;}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+ins{background-color:#ff9;color:#000;text-decoration:none;}
+img{-ms-interpolation-mode:bicubic;vertical-align:middle;}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}
+del{text-decoration:line-through;}
+abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help;}
+table{border-collapse:collapse;border-spacing:0;}
+hr{display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}
+em{font-style:normal;font-weight:700;}
+input,select{vertical-align:middle;}
+.vhidden{position:absolute;text-align:left;direction:ltr;left:-9999em;height:1px;}
+.clearfix:before,.clearfix:after{content:"\0020";display:block;height:0;visibility:hidden;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+label{cursor:pointer;}
+#skiplinks{position:absolute;left:-9999px;}
+body{width:960px;margin:0 auto;}
+@media print{*{background:transparent !important;color:black !important;text-shadow:none !important;} a,a:visited{color:#444 !important;text-decoration:underline;} a[href]:after{content:" (" attr(href) ")";} abbr[title]:after{content:" (" attr(title) ")";} .ir a:after{content:"";} pre,blockquote{border:1px solid #999;page-break-inside:avoid;} thead{display:table-header-group;} tr,img{page-break-inside:avoid;} @page {margin:0.5cm;}p,h2,h3{orphans:3;widows:3;} h2,h3{page-break-after:avoid;}}

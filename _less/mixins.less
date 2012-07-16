@@ -1,0 +1,89 @@
+.inline-block() {
+	display:-moz-inline-stack;
+	display:inline-block;
+	position:relative;
+	*display:inline;
+	zoom:1;
+}
+.min-height(@height) {
+	min-height: @height;
+	height: auto !important;
+	height: @height;
+}
+.min-width(@width) {
+	min-width: @width;
+	width: auto !important;
+	width: @width;
+}
+.border-radius(@radius: 3px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+ 
+.opacity(@alpha: 1) {
+	@ms: @alpha * 100;
+	-moz-opacity: @alpha;
+	opacity: @alpha;
+	filter: e(%('alpha(opacity=%d)', @alpha * 100));
+	-ms-filter: %('progid:DXImageTransform.Microsoft.Alpha(Opacity=%d)', @alpha * 100);
+}
+ 
+.text-shadow(@shadow) {
+	text-shadow: @shadow;
+	-moz-text-shadow: @shadow;
+	-webkit-text-shadow: @shadow;
+}
+ 
+.box-shadow(@shadow) {
+	box-shadow: @shadow;
+	-moz-box-shadow: @shadow;
+	-webkit-box-shadow: @shadow;
+}
+.transition(@trans) {
+	-webkit-transition: @trans;
+	-moz-transition: @trans;
+	-o-transition: @trans;
+	transition: @trans;
+}
+.gradient(@from, @to, @pos:0 0){
+	background: e(%('-webkit-gradient(linear, 0% 0%, 0% 100%, from(%d), to(%d))', @from, @to));
+	background:	e(%('-moz-linear-gradient(0% 100% 90deg, %d, %d)', @to, @from));
+}
+ 
+.columns(@count, @gap:20px) {
+  -moz-column-count:@count;
+  -moz-column-gap:@gap;
+  -webkit-column-count:@count;
+  -webkit-column-gap:@gap;
+  column-count:@count;
+  column-gap:@gap;
+}
+ 
+.IR() {
+	text-align: left;
+	display: block;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.IR(@width, @height) {
+	width: @width;
+	height: @height;
+}
+.IR(@width, @height, @bg, @xy:0 0) {
+	width: @width;
+	height: @height;
+	background:@bg no-repeat @xy;
+}
+.transform(@rules) {
+	-moz-transform: @rules;
+	-o-transform: @rules;
+	-webkit-transform: @rules;
+	transform: @rules;
+}
+.transition(@rules) {
+	-webkit-transition:@rules;
+	-moz-transition:@rules;
+	-o-transition:@rules;
+	transition:@rules
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html lang="pt"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title></title>
+	<meta name="description" content="" />
+	
+	<script> document.getElementsByTagName('html')[0].className += 'js' </script>
+
+	<!-- 114x114 for iPhone+retina+iPad, link necessário para Android -->
+	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+	
+	<link rel="stylesheet" href="styles/main.css" />
+
+	<!-- Windows without Cakefile
+
+		<link rel="stylesheet" href="_less/main.less" />	
+		<script src="scripts/vendor/less-1.2.1.min.js"></script>
+	-->
+
+    <!-- Substituir por custom build: http://www.modernizr.com/download/ -->
+	<script src="scripts/vendor/modernizr-2.5.3.min.js"></script>
+	<script src="scripts/vendor/respond.min.js"></script>
+</head>
+
+<body>
+    
+    <div id="skiplinks">
+        <a href="#nav">Pular para a navegação</a>
+        <a href="#content">Pular para o conteúdo</a>
+    </div>
+
+	<div id="header">
+		<div role="banner">
+			<h1 class="logo">Título do site</h1>
+		</div>
+		<ul id="nav" role="navigation">
+			<li><a href="#">Home</a></li>
+		</ul>
+	</div>
+	
+	<div id="sidebar" role="complementary">
+	</div>
+    
+	<div id="content" role="main">
+	</div>
+    
+	<div id="footer" role="contentinfo">
+	</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script> window.jQuery || document.write('<script src="scripts/vendor/jquery-1.7.1.min.js"><\/script>') </script>
+
+	<script src="scripts/plugins.js"></script>
+	<script src="scripts/base.js"></script>
+	
+	<!-- Prompt IE 6 users to install Chrome Frame. -->
+	<!--[if lt IE 7 ]>
+	  <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	  <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+
+	<!-- Google Analytics assíncrono. Troque UA-XXXXX-X pelo ID do site. -->
+	<script>
+		var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+</body>
+</html>
