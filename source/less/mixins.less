@@ -1,0 +1,93 @@
+.inline-block() {
+    display:-moz-inline-stack;
+    display:inline-block;
+    position:relative;
+    *display:inline;
+    zoom:1;
+}
+
+.min-height(@height) {
+    min-height: @height;
+    height: auto !important;
+    height: @height;
+}
+.min-width(@width) {
+    min-width: @width;
+    width: auto !important;
+    width: @width;
+}
+
+.border-radius(@radius: 3px) {
+    -webkit-border-radius: @radius;
+       -moz-border-radius: @radius;
+            border-radius: @radius;
+}
+ 
+.opacity(@alpha: 1) {
+    @ms: @alpha * 100;
+    -moz-opacity: @alpha;
+    opacity: @alpha;
+    filter: e(%('alpha(opacity=%d)', @alpha * 100));
+    -ms-filter: %('progid:DXImageTransform.Microsoft.Alpha(Opacity=%d)', @alpha * 100);
+}
+ 
+.text-shadow(@shadow) {
+    -webkit-text-shadow: @shadow;
+       -moz-text-shadow: @shadow;
+            text-shadow: @shadow;
+}
+ 
+.box-shadow(@shadow) {
+    -webkit-box-shadow: @shadow;
+       -moz-box-shadow: @shadow;
+            box-shadow: @shadow;
+}
+ 
+.image-replacement() {
+    text-align: left;
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.image-replacement(@width, @height) {
+    width: @width;
+    height: @height;
+}
+.image-replacement(@width, @height, @bg, @xy:0 0) {
+    width: @width;
+    height: @height;
+    background:@bg no-repeat @xy;
+}
+
+.transform(@rules) {
+    -webkit-transform: @rules;
+       -moz-transform: @rules;
+         -o-transform: @rules;
+            transform: @rules;
+}
+
+.transition(@rules) {
+    -webkit-transition:@rules;
+       -moz-transition:@rules;
+         -o-transition:@rules;
+            transition:@rules
+}
+
+#gradient {
+    .vertical(@startColor: #555, @endColor: #333, @colorStop: 100%) {
+        background-color: mix(@startColor, @endColor, 60%);
+        background-image: -moz-linear-gradient(top, @startColor, @endColor @colorStop); // FF 3.6+
+        background-image: -ms-linear-gradient(top, @startColor, @endColor @colorStop); // IE10
+        background-image: -webkit-gradient(linear, 0 0, 0 @colorStop, from(@startColor), to(@endColor)); // Android 2.3, Safari 4+, Chrome 2+
+        background-image: -webkit-linear-gradient(top, @startColor, @endColor @colorStop); // Safari 5.1+, Chrome 10+
+        background-image: -o-linear-gradient(top, @startColor, @endColor @colorStop); // Opera 11.10
+        background-image: linear-gradient(top, @startColor, @endColor @colorStop); // The standard
+    }
+    .radial(@innerColor: #555, @outerColor: #333, @pos: center, @colorStop: 100%)  {
+        background-image: -moz-radial-gradient(@pos, circle, @innerColor, @outerColor @colorStop); // FF 3.6+
+        background-image: -ms-radial-gradient(@pos, circle, @innerColor, @outerColor @colorStop); // IE10
+        background-image: -webkit-gradient(radial, center center, 0, center center, 460, from(@innerColor), to(@outerColor)); // Android 2.3, Safari 4+, Chrome 2+
+        background-image: -webkit-radial-gradient(@pos, circle, @innerColor, @outerColor @colorStop); // Safari 5.1+, Chrome 10+
+        background-image: -o-radial-gradient(@pos, circle, @innerColor, @outerColor @colorStop); // Opera 11.10
+    }
+}

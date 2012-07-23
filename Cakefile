@@ -6,14 +6,14 @@ global.coffee = []
 global.less = []
 
 # CONFIGURATION
-coffee.push 'main', 'but'
+coffee.push 'main'
 less.push 'main'
 
-coffee.src = '_coffee/'
+coffee.src = 'source/coffee/'
 coffee.dst = 'scripts/'
 coffee.compress = true
 
-less.src = '_less/'
+less.src = 'source/less/'
 less.dst = 'styles/'
 less.compress = true
 

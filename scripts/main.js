@@ -1,6 +1,6 @@
 /*
-  2012-07-13 16:54 GMT
-  _coffee/main.coffee > scripts/main.js
+  2012-07-23 14:31 GMT
+  source/coffee/main.coffee > scripts/main.js
   
   created by Grifo
 */
